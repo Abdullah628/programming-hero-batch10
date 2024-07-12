@@ -1,0 +1,31 @@
+/* use positioning */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .container{
+    position: relative;
+    border: 5px solid purple;
+    height: 500px;
+    
+}
+.container .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 2px solid red ;
+    transform: translate(-50%, -50%);
+} */
+
+
+
+/* use flexbox  */
+.container{
+    border: 5px solid purple;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
